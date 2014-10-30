@@ -103,7 +103,6 @@ See the documentation below for more details.
 https://developers.google.com/maps/documentation/javascript/reference
 */
 var map;    // declares a global map variable
-var openInfoWindow; // declares a global variable to store current open infoWindow
 
 /*
 Start here! initializeMap() is called when page is loaded.
@@ -178,13 +177,7 @@ function initializeMap() {
 
     // hmmmm, I wonder what this is about...
     google.maps.event.addListener(marker, 'click', function() {
-      // close open infoWindow
-      if (openInfoWindow) { openInfoWindow.close(); }
-
-      // bind clicked marker infoWindow to global variable
-      openInfoWindow = infoWindow;
-
-      // add infoWindow
+      // your code goes here!
       infoWindow.open(map,marker);
     });
 
