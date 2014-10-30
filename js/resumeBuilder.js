@@ -177,10 +177,11 @@ projects.display = function() {
     })
 };
 
-function inName(name) {
+function inName() {
+    var name = $("#name").html();
     name = name.trim().split(" ");
-    name[0] = name[0].toUpperCase();
-    name[1] = name[1].slice(0,1).toUpperCase() + name[1].slice(1).toLocaleLowerCase();
+    name[0] = name[0].slice(0, 1).toUpperCase() + name[0].slice(1).toLowerCase();
+    name[1] = name[1].toUpperCase();
     return name[0] + " " + name[1];
 }
 
