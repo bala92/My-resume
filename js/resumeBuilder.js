@@ -32,14 +32,14 @@ work.display = function() {
 }
 
 var bio = {
-    "name": "Yunen He",
-    "role": "Front-End Web Developer",
+    "name": "T Balaji",
+    "role": "Student",
     "welcomeMessage": "Outstanding people always stand out.",
     "contacts": {
-        "mobile_number": "61-0420947611",
-        "email" : "heyunen@hotmail.com",
-        "github" : "https://github.com/heyunen",
-        "location" : "Canberra Australia"
+        "mobile_number": "91-9940506564",
+        "email" : "bala92@gmail.com",
+        "github" : "https://github.com/bala92",
+        "location" : "Chennai"
     },
     "pictureURL":"images/yunen.png",
     "skills" : ["AngularJS", "HTML","CSS", "JavaScript","Haskell","Java"]
